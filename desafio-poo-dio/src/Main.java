@@ -37,26 +37,26 @@ public class Main{
        bootcamp.getConteudos().add(mentoria);
 
        Dev devNeo = new Dev();
-       devNeo.SetNome("Neo");
+       devNeo.setNome("Neo");
        devNeo.inscreverBootcamp(bootcamp);
-       System.out.println("Conteúdos Inscritos Neo" + devNeo.getconteudosInscritos());
+       System.out.println("Conteúdos Inscritos Neo" + devNeo.getConteudosInscritos());
 
        devNeo.progredir();
        devNeo.progredir();
 
        System.out.println("#");
 
-       System.out.println("Conteúdos Inscritos Neo" + devNeo.getconteudosInscritos());
-       System.out.println("Conteúdos Concluidos Neo" + devNeo.getconteudosConcluidos());
+       System.out.println("Conteúdos Inscritos Neo" + devNeo.getConteudosInscritos());
+       System.out.println("Conteúdos Concluidos Neo" + devNeo.getConteudosConcluidos());
        System.out.println("XP: " + devNeo.calcularTotalXp());
 
        System.out.println("##############");
 
        Dev devManolo = new Dev();
-       devManolo.SetNome("Manolo");
+       devManolo.setNome("Manolo");
        devManolo.inscreverBootcamp(bootcamp);
-       System.out.println("Conteúdos Inscritos Manolo" + devManolo.getconteudosInscritos());
-       System.out.println("Conteúdos Concluidos Neo" + devManolo.getconteudosConcluidos());
+       System.out.println("Conteúdos Inscritos Manolo" + devManolo.getConteudosInscritos());
+       System.out.println("Conteúdos Concluidos Neo" + devManolo.getConteudosConcluidos());
 
        System.out.println("XP: " + devManolo.calcularTotalXp());
        
@@ -65,8 +65,8 @@ public class Main{
        devManolo.progredir();
        
        System.out.println("#");
-       System.out.println("Conteúdos Inscritos Manolo" + devManolo.getconteudosInscritos());
-       System.out.println("Conteúdos Concluidos Manolo" + devManolo.getconteudosConcluidos());
+       System.out.println("Conteúdos Inscritos Manolo" + devManolo.getConteudosInscritos());
+       System.out.println("Conteúdos Concluidos Manolo" + devManolo.getConteudosConcluidos());
 
 
 
